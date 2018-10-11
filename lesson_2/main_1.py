@@ -1,7 +1,7 @@
 def unpacker(*args):
     my_list = [i for i in args]
     for i in range(len(my_list)):
-        if isinstance(my_list[i], list):
+        if isinstance(my_list[i], (list, tuple, set, frozenset)):
             temp_object = my_list[0:i]
             temp_object.extend(my_list[i])
             temp_object.extend(my_list[i + 1:])
