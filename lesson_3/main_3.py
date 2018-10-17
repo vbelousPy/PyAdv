@@ -14,6 +14,6 @@ def csv_reader(file_name):
             title +=1
     return my_dict
 
-def json_writer
-# csv_reader("my.csv")
+# def json_writer
+# csv_reader("my. ncsv")
 print(csv_reader("my.csv"))
