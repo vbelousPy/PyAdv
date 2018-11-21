@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     if request.method == "GET":
         # return "This is GET"
-        return "<html>bla-bla-bla</html>"
+        return "<html>bla-bla-bla</html>", 501
 
 
 if __name__ == "__main__":
